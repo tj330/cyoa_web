@@ -34,7 +34,6 @@ h1 {
 
 p {
   text-align: justify;
-  margin-top: 0.5rem;
 }
 
 ul {
@@ -46,6 +45,7 @@ ul {
 
 li {
   color: #5D866C;
+  margin-top: 0.5rem;
 }
 
 a {
