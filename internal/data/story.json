@@ -1,0 +1,207 @@
+{
+  "intro": {
+    "title": "The Little Blue Gopher",
+    "story": [
+      "Once upon a time, long long ago, there was a little blue gopher. Our little blue friend wanted to go on an adventure, but he wasn't sure where to go. Will you go on an adventure with him?",
+      "One of his friends once recommended going to New York to make friends at this mysterious thing called \"GothamGo\". It is supposed to be a big event with free swag and if there is one thing gophers love it is free trinkets. Unfortunately, the gopher once heard a campfire story about some bad fellas named the Sticky Bandits who also live in New York. In the stories these guys would rob toy stores and terrorize young boys, and it sounded pretty scary.",
+      "On the other hand, he has always heard great things about Denver. Great ski slopes, a bad hockey team with cheap tickets, and he even heard they have a conference exclusively for gophers like himself. Maybe Denver would be a safer place to visit."
+    ],
+    "options": [
+      {
+        "text": "That story about the Sticky Bandits isn't real, it is from Home Alone 2! Let's head to New York.",
+        "arc": "new-york"
+      },
+      {
+        "text": "Gee, those bandits sound pretty real to me. Let's play it safe and try our luck in Denver.",
+        "arc": "denver"
+      },
+      {
+        "text": "Why not start small? Let's explore the nearby forest first.",
+        "arc": "forest"
+      }
+    ]
+  },
+  "forest": {
+    "title": "A Walk in the Forest",
+    "story": [
+      "You and the little blue gopher decide to start small and explore the nearby forest. The sun is shining, birds are chirping, and the leaves crunch under your feet.",
+      "After a while, you find a sparkling stream. The gopher seems mesmerized and suggests building a tiny raft to float along the water.",
+      "Suddenly, you hear rustling in the bushes. A family of squirrels pops out, staring curiously at your gopher buddy."
+    ],
+    "options": [
+      {
+        "text": "Introduce yourselves to the squirrels and offer some snacks.",
+        "arc": "squirrel-friends"
+      },
+      {
+        "text": "Quickly retreat before the squirrels become too curious.",
+        "arc": "forest-escape"
+      }
+    ]
+  },
+  "squirrel-friends": {
+    "title": "Squirrel Allies",
+    "story": [
+      "You hand out some acorns to the squirrels. They are delighted! Soon, the gopher is laughing and running around with his new squirrel friends.",
+      "The squirrels guide you to a hidden grove filled with wild berries and flowers. It’s a magical spot untouched by humans.",
+      "After enjoying the grove, the gopher looks at you excitedly. 'Maybe we should document this adventure in a tiny journal!' he squeaks."
+    ],
+    "options": [
+      {
+        "text": "Take the advice and start a gopher adventure journal.",
+        "arc": "journal"
+      },
+      {
+        "text": "Thank the squirrels and head back home for now.",
+        "arc": "home"
+      }
+    ]
+  },
+  "forest-escape": {
+    "title": "The Great Escape",
+    "story": [
+      "You decide it's safer to leave the squirrels alone and start heading back. The gopher scurries along your shoulder, looking a bit disappointed but trusting your judgment.",
+      "Suddenly, the wind picks up and it starts raining lightly. You both take shelter under a large oak tree and watch the raindrops glisten in the afternoon sun.",
+      "After the rain stops, a rainbow appears in the sky. The gopher claps his tiny paws and seems to think this is a good omen for future adventures."
+    ],
+    "options": [
+      {
+        "text": "Decide to continue your journey to New York after the rainbow.",
+        "arc": "new-york"
+      },
+      {
+        "text": "Try Denver instead, maybe the mountains will have a similar rainbow.",
+        "arc": "denver"
+      }
+    ]
+  },
+  "journal": {
+    "title": "Gopher's Journal",
+    "story": [
+      "You and your gopher start jotting down everything in a tiny journal. Sketches of the forest, the stream, the squirrels, and even the rainbow are recorded meticulously.",
+      "Weeks pass, and your gopher buddy becomes more confident in storytelling. Soon, the journal becomes a treasured artifact for future adventures.",
+      "Feeling accomplished, the little gopher nudges you. 'Shall we take a bigger trip next?'"
+    ],
+    "options": [
+      {
+        "text": "Yes, let's finally try New York!",
+        "arc": "new-york"
+      },
+      {
+        "text": "Or maybe a snowy adventure in Denver?",
+        "arc": "denver"
+      }
+    ]
+  },
+  "new-york": {
+    "title": "Visiting New York",
+    "story": [
+      "Upon arriving in New York you and your furry travel buddy first attempt to hail a cab. Unfortunately nobody wants to give a ride to someone with a \"pet\". They kept saying something about shedding, as if gophers shed.",
+      "Unwilling to accept defeat, you pull out your phone and request a ride using <undisclosed-app>. In a few short minutes a car pulls up and the driver helps you load your luggage. He doesn't seem thrilled about your travel companion but he doesn't say anything.",
+      "The ride to your hotel is fairly uneventful, with the exception of the driver droning on about his hardships. After a while, it gets old so you slip in some earbuds and listen to music.",
+      "After arriving at your hotel you check in and walk to the conference center where GothamGo is being held. The friendly man at the desk helped you get your badge and you hurry in to take a seat.",
+      "As you head down the aisle you notice a strange man on stage with a mask, cape, and poorly drawn abs on his stomach. Next to him is a man in a fox outfit. What are these two doing? And what have you gotten yourself into?"
+    ],
+    "options": [
+      {
+        "text": "This is getting too weird. Let's bail and head back home.",
+        "arc": "home"
+      },
+      {
+        "text": "Maybe people just dress funny in the big city. Grab a seat and see what happens.",
+        "arc": "debate"
+      },
+      {
+        "text": "Take a selfie with the gopher before anything else.",
+        "arc": "selfie"
+      }
+    ]
+  },
+  "selfie": {
+    "title": "Selfie Time",
+    "story": [
+      "You take a selfie with your little blue gopher, carefully avoiding the masked figures on stage. The picture turns out hilarious!",
+      "Suddenly, someone notices the gopher and starts taking their own pictures. Soon, a small crowd gathers, and your gopher becomes a minor celebrity for the day."
+    ],
+    "options": [
+      {
+        "text": "Ride the fame wave and stick around the conference.",
+        "arc": "debate"
+      },
+      {
+        "text": "Decide enough is enough and sneak out quietly.",
+        "arc": "home"
+      }
+    ]
+  },
+  "debate": {
+    "title": "The Great Debate",
+    "story": [
+      "After a bit everyone settles down. The two people on stage begin having a debate. You have a feeling you are supposed to pick sides."
+    ],
+    "options": [
+      {
+        "text": "Clearly the fox-man was the winner.",
+        "arc": "sean-kelly"
+      },
+      {
+        "text": "Our caped friend clearly won. Let's congratulate him.",
+        "arc": "mark-bates"
+      },
+      {
+        "text": "Slip out the back before anyone asks us to pick a side.",
+        "arc": "home"
+      }
+    ]
+  },
+  "mark-bates": {
+    "title": "Costume Time",
+    "story": [
+      "After talking with the wannabe superhero you learn his name is Mark Bates, and aside from the costume obsession he seems nice.",
+      "Turns out Mark is working on a project called Buffalo and needs a mascot. He even bought a little buffalo outfit, but it’s too small for him.",
+      "The gopher fits perfectly in the costume. Mark snaps photos, mumbling about designing the best buffalo costume ever.",
+      "Many fun times are had, but eventually it's time for the last night of your stay."
+    ],
+    "options": [
+      {
+        "text": "Pack your bags and head to bed. We have a long flight in the morning.",
+        "arc": "home"
+      }
+    ]
+  },
+  "sean-kelly": {
+    "title": "Exit Stage Left",
+    "story": [
+      "You walk up to the fox-man, Sean Kelly. A few clicks later and you see his online handle: 'StabbyCutyou'. Stories about New York being dangerous were true!",
+      "You grab your gopher and head for the door. 'I'll explain at the hotel,' you say."
+    ],
+    "options": [
+      {
+        "text": "Change your flight to leave early and head to the airport.",
+        "arc": "home"
+      }
+    ]
+  },
+  "denver": {
+    "title": "Hockey and Ski Slopes",
+    "story": [
+      "You arrive in Denver and start your trip by attending a hockey game. Your gopher buddy is hopeful the Avalanche do better this year.",
+      "Next day you hit the ski slopes. The mountain scenery is breathtaking.",
+      "You think about checking out GopherCon, but the gopher refuses due to his 'No Space Walks' policy.",
+      "The week flies by and before you know it, you are packing to head home."
+    ],
+    "options": [
+      {
+        "text": "Pack your bags and head to bed. We have a long flight in the morning.",
+        "arc": "home"
+      }
+    ]
+  },
+  "home": {
+    "title": "Home Sweet Home",
+    "story": [
+      "Your little gopher buddy thanks you for taking him on an adventure. Perhaps next year you can travel abroad – gophers are all the rage in China!"
+    ],
+    "options": []
+  }
+}
