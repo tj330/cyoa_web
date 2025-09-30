@@ -72,8 +72,15 @@ a:hover {
 }
 
 @media (max-width: 480px) {
+  body {
+    align-items: center;
+  }
+
+  a {
+    padding: 0;
+  }
   .main {
-    width: 95%;
+    width: 85%;
     padding: 1rem;
     max-height: 90vh;
     overflow-y: auto;
